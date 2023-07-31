@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.containerUl{
+
+    min-width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+}
+
+.containerUl2{
+
+    min-width: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+}
+
+#products{
+    max-width: 750px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.containerUl p span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.noProduct{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.noProduct2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerFormProd{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    min-width: 1000px;
+    justify-content: center;
+}
+
+.tableCart thead {
+    padding: 30px;
+    border-collapse: collapse !important;
+    background-color: grey;
+}
+
+.tableCart td {
+    padding: 30px;
+    text-align: center;
+}
+
+.tableCart{
+    border: red 5px solid;
+}
+
+.tableCart th:hover{
+    border: rgba(18, 13, 63, 0.349) 5px solid;
+}
